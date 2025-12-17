@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files - exclude all CSV files in data folder
+data/*.csv
+
+# Model files - exclude model files in outputs/models
+outputs/models/*.pth
+outputs/models/*.h5
+outputs/models/*.pkl
+
+# Generated plots/images - exclude images in outputs/figures
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.jpeg
+
+# But keep the .gitkeep files
+!**/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
