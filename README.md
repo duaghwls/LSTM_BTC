@@ -187,5 +187,3 @@ MIT License - 자유롭게 사용, 수정, 배포 가능합니다.
 질문이나 제안사항이 있으시면 Issues 탭을 이용해주세요.
 
 ---
-
-**Made with ❤️ using PyTorch**
